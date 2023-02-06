@@ -19,9 +19,9 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/4.jpg") top right no-repeat;
+  background: url("../img/4.jpg") top right no-repeat;
   background-size: cover;
-  opacity: ;
+  filter: brightness(60%);
   left: 0;
   right: 0;
   top: 0;
@@ -82,7 +82,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(254, 252, 252);
   line-height: 1;
   display: inline-block;
 }
@@ -223,7 +223,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: rgba(0, 3, 161, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -259,7 +259,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: rgb(27, 2, 77);
+  color: rgb(253, 253, 253);
 }
 
 /**
